@@ -18,7 +18,7 @@ The primary goal of PSD-EEGRepNet is to `achieve robust classification accuracy 
 
 ## Experimental Results
 
-PSD-EEGRepNet was evaluated on the PhysioNet Motor Imagery dataset comprising EEG data from 10 subjects. Using a 5-fold stratified cross-validation scheme and two different data overlap conditions (80% and 90%), the model demonstrated:
+PSD-EEGRepNet was evaluated on the `PhysioNet Motor Imagery dataset` comprising EEG data from 10 subjects (For more information, please feel free to study: https://physionet.org/content/eegmmidb/1.0.0/). Using a 5-fold stratified cross-validation scheme and two different data overlap conditions (80% and 90%), the model demonstrated:
 
 **Accuracy**:
 
@@ -40,6 +40,7 @@ These results underline the potential of PSD-EEGRepNet as a practical and effici
 
 ## Requirements
 This project requires the following packages and dependencies to run successfully. It supports both PyTorch and TensorFlow environments (CUDA 11.8 recommended for GPU acceleration).
+
 (Full details provided in `requirements.txt`)
 
 ## Installation
@@ -47,7 +48,7 @@ This project requires the following packages and dependencies to run successfull
 To install PSD-EEGRepNet, clone this repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/PSD-EEGRepNet.git
+git clone https://github.com/kanthamjib/PSD-EEGRepNet.git
 cd PSD-EEGRepNet
 pip install -r requirements.txt
 ```
@@ -69,7 +70,6 @@ config/default.yaml
 
 If you find this repository useful in your research, please consider citing:
 
-```bash
 ```bibtex
 @inproceedings{thangthong2025psd,
   author    = {Kantham Thangthong and Fawad Asadi and Supan Tungjitkusolmun},
@@ -77,6 +77,6 @@ If you find this repository useful in your research, please consider citing:
   booktitle = {Proc. of the 2025 Biomedical Engineering International Conference (BMEiCON)},
   year      = {2025},
   address   = {Bangkok, Thailand},
-  note      = {To appear}
+  note      = {Accepted for publication}
 }
-```
+
