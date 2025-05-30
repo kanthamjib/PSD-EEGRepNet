@@ -13,7 +13,7 @@ Notes for Reproducibility
   `RepBlock.switch_to_deploy` is intentionally left unimplemented, pending
   validation and incorporation of re-parameterisation techniques in subsequent studies.
 * **Computational layout** - All convolutions operate on inputs shaped as
-  `(N, C_in, Channels, Frequencies)` after PSD extraction.
+  `(𝑁, 1, 𝐻, 𝑊)` after PSD extraction. (Please see more detail in this Model architecture's Paper)
 
 References
 ----------
