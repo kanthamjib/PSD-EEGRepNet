@@ -1,0 +1,26 @@
+# Configuration File for EEG Motor-Imagery Classification
+# =======================================================
+# This configuration file contains parameters for EEG preprocessing,
+# feature extraction using Welch's method for Power Spectral Density (PSD),
+# and neural network training parameters.
+
+# Data Processing Parameters
+# --------------------------
+sample_rate : 160.0          # Sampling rate in Hz for EEG signals.
+fmin        : 0.5            # Minimum frequency for PSD calculation (Hz).
+fmax        : 30             # Maximum frequency for PSD calculation (Hz).
+n_fft       : 160            # Number of FFT points for Welch's PSD estimation.
+n_overlap   : 128            # Number of overlapping points between segments for PSD.
+
+# Training Parameters
+# -------------------
+n_classes   : 3              # Number of target classes in classification.
+epochs      : 50             # Maximum number of training epochs.
+batch_size  : 32             # Batch size for training the neural network.
+k_folds     : 5              # Number of folds for stratified k-fold cross-validation.
+lr          : 0.001          # Learning rate for optimizer (Adam).
+patience    : 10             # Number of epochs without improvement before early stopping.
+
+# Output Paths
+# ------------
+output_dir  : output         # Directory to save outputs, results, and trained models.
