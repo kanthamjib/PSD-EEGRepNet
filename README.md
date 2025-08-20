@@ -1,7 +1,5 @@
 # PSD-EEGRepNet: A CNN Architecture with Multi-Branch RepBlocks for Power Spectral Density-Based Motor Imagery EEG Classification in BCI
 
-**(left blank for a picture)**
-
 **PSD-EEGRepNet** is a lightweight CNN-based neural network architecture utilizing RepBlocks designed specifically for Motor Imagery (MI) EEG signal classification. The model leverages Power Spectral Density (PSD) features, efficiently extracted using Welch's method, to classify EEG signals into distinct motor imagery tasks.
 
 The primary goal of PSD-EEGRepNet is to `achieve robust classification accuracy while maintaining low computational complexity during model training and inference`. It is particularly optimized for use in Brain-Computer Interface (BCI) applications, providing a good balance between performance and computational efficiency.
@@ -68,15 +66,22 @@ config/default.yaml
 
 ## Citation
 
-If you find this repository useful in your research, please consider citing:
+If you find this repository useful in your research, please consider citing: https://ieeexplore.ieee.org/document/11113794
+
+K. Thangthong, F. Asadi and S. Tungjitkusolmun, "PSD-EEGRepNet: A CNN Architecture with Multibranch RepBlocks for Power Spectral Density-Based Motor Imagery EEG Classification in BCI," 2025 17th Biomedical Engineering International Conference (BMEiCON), Chiang Mai, Thailand, 2025, pp. 1-5, doi: 10.1109/BMEiCON66226.2025.11113794.
 
 ```bibtex
-@inproceedings{thangthong2025psd,
+@inproceedings{PSD_EEGRepNet_2025,
   author    = {Kantham Thangthong and Fawad Asadi and Supan Tungjitkusolmun},
-  title     = {PSD-EEGRepNet: A CNN Architecture with Multi-Branch RepBlocks for Power Spectral Density-Based Motor Imagery EEG Classification in BCI},
-  booktitle = {Proc. of the 2025 Biomedical Engineering International Conference (BMEiCON)},
+  title     = {{PSD-EEGRepNet: A CNN Architecture with Multibranch RepBlocks for Power Spectral Density-Based Motor Imagery EEG Classification in BCI}},
+  booktitle = {Proceedings of the 2025 17th Biomedical Engineering International Conference (BMEiCON)},
   year      = {2025},
-  address   = {Bangkok, Thailand},
-  note      = {Accepted for publication}
+  month     = {July},
+  pages     = {1--5},
+  address   = {Chiang Mai, Thailand},
+  publisher = {IEEE},
+  doi       = {10.1109/BMEiCON66226.2025.11113794},
+  url       = {https://ieeexplore.ieee.org/document/11113794}
 }
+
 
